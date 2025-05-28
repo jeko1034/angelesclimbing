@@ -13,6 +13,12 @@ header {
   text-align: center;
 }
 
+.h2t {
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
 nav {
   margin-top: 0.5em;
 }
