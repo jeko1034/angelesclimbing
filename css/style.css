@@ -60,6 +60,17 @@ input[type="file"] {
   display: block;
   margin: 0 auto;
 }
+.img-small {
+  max-width: 300px;
+  width: 75%;
+  height: auto;
+}
+
+.img-large {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
 
 footer {
   background: #000;
