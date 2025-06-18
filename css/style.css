@@ -110,3 +110,18 @@ img {
   box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+  body, main, p, h2, h3, nav a {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.4em;
+  }
+  nav a {
+    font-size: 1.1em;
+  }
+}
+
