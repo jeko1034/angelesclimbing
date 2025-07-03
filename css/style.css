@@ -112,16 +112,27 @@ img {
 
 @media (max-width: 600px) {
   body, main, p, h2, h3, nav a {
-    font-size: 1.2em;
-  }
-  h2 {
-    font-size: 2em;
-  }
-  h3 {
-    font-size: 1.4em;
-  }
-  nav a {
     font-size: 1.1em;
+  }
+  main {
+    padding: 1em 0.5em;
+    margin: 1em 0 0 0;
+  }
+  header img {
+    max-width: 95vw;
+    height: auto;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: flex-start;
+  }
+  .centered-txt img,
+  .img-small, .img-large, .img-vert, #preview img {
+    max-width: 98vw;
+    width: 100%;
+    height: auto;
   }
 }
 
