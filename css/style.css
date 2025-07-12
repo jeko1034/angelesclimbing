@@ -110,6 +110,12 @@ img {
   box-sizing: border-box;
 }
 
+hr {
+  border: none;
+  border-top: 5px solid #000000;
+  margin: 2em 0;
+}
+
 @media (max-width: 600px) {
   body, main, p, h2, h3, nav a {
     font-size: 1.1em;
