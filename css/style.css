@@ -100,6 +100,12 @@ input[type="file"] {
   height: auto;
 }
 
+.img-larger {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+
 footer {
   background: #000000;
   color: #fff;
